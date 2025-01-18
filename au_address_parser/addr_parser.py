@@ -99,9 +99,9 @@ class AbAddressUtility(object):
                 street_part, locality_part = ' '.join(
                     guess[:3]), ' '.join(guess[3:])
             else:
-                raise Exception('Not Valid Address Foramt')
+                raise Exception('Not Valid Address Format')
         else:
-            raise Exception('Not Valid Address Foramt')
+            raise Exception('Not Valid Address Format')
         
         # Parse street part
         street_part_patterns = [
